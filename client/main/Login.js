@@ -18,7 +18,7 @@ const Root = styled.div`
     .background{
         width:100%;
         height:100%;
-        background-image:url(client/img/ocean.jpg);
+        background-image:url(../../client/img/ocean.jpg);
         background-size:100% 100%;
         filter:blur(6px);
         
