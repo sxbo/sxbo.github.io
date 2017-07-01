@@ -239,7 +239,6 @@ export default class Main extends React.Component{
                     <div className="header-content">
                         <audio autoPlay="true" loop="true" controls="" height="0px" width="0px">
                             <source src="../../client/music/aimei.mp3" type="audio/mp3" />
-                            <source src="../.../client/music/aimei.ogg" type="audio/ogg"/>
                             <embed height="0" width="0" src="../../client/music/aimei.mp3"/>
                         </audio>
                         <div  id="header-content"></div>
@@ -250,7 +249,6 @@ export default class Main extends React.Component{
                     </div>
                 </Header>
                 <Content className="content">
-                    {/*<div className="contain">*/}
                         <div className="pane" style={{left:'46%',top:(this.state.minHeight/2-100)+'px'}}>
                             <img src={require('../img/0.jpg')}/>
                             
@@ -291,8 +289,6 @@ export default class Main extends React.Component{
                             <div style={{color:'#91c000',height:'71px'}}>为</div>
                             <div style={{color:'#ff8a00',height:'71px'}}>情</div>
                         </div>
-
-                   {/*</div>*/}
                 </Content>
                 <Footer style={{textAlign:'center',height:'10px'}}>
                     Photo Album ©2017 Created by Song
