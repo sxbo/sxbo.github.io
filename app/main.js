@@ -24241,13 +24241,13 @@ var LoginForm = function (_React$Component) {
                                 FormItem,
                                 null,
                                 getFieldDecorator('userName', { rules: [{ required: true, message: 'Please input your username!' }]
-                                })(_react2.default.createElement(_input2.default, { prefix: _react2.default.createElement(_icon2.default, { type: 'user', style: { fontSize: 13 } }), placeholder: 'Username', defaultValue: 'hena' }))
+                                })(_react2.default.createElement(_input2.default, { prefix: _react2.default.createElement(_icon2.default, { type: 'user', style: { fontSize: 13 } }), placeholder: 'Username' }))
                             ),
                             _react2.default.createElement(
                                 FormItem,
                                 null,
                                 getFieldDecorator('password', { rules: [{ required: true, message: 'Please input your Password!' }]
-                                })(_react2.default.createElement(_input2.default, { prefix: _react2.default.createElement(_icon2.default, { type: 'lock', style: { fontSize: 13 } }), type: 'password', placeholder: 'Password', defaultValue: '0926' }))
+                                })(_react2.default.createElement(_input2.default, { prefix: _react2.default.createElement(_icon2.default, { type: 'lock', style: { fontSize: 13 } }), type: 'password', placeholder: 'Password' }))
                             ),
                             _react2.default.createElement(
                                 FormItem,
@@ -24525,8 +24525,8 @@ var Main = function (_React$Component) {
                         _react2.default.createElement(
                             'audio',
                             { autoPlay: 'true', loop: 'true', controls: '', height: '0px', width: '0px' },
-                            _react2.default.createElement('source', { src: '../../client/music/aimei.mp3', type: 'audio/mp3' }),
-                            _react2.default.createElement('embed', { height: '0', width: '0', src: '../../client/music/aimei.mp3' })
+                            _react2.default.createElement('source', { src: '../../client/music/liangliang.mp3', type: 'audio/mp3' }),
+                            _react2.default.createElement('embed', { height: '0', width: '0', src: '../../client/music/liangliang.mp3' })
                         ),
                         _react2.default.createElement('div', { id: 'header-content' })
                     ),

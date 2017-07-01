@@ -238,8 +238,8 @@ export default class Main extends React.Component{
                     </div>
                     <div className="header-content">
                         <audio autoPlay="true" loop="true" controls="" height="0px" width="0px">
-                            <source src="../../client/music/aimei.mp3" type="audio/mp3" />
-                            <embed height="0" width="0" src="../../client/music/aimei.mp3"/>
+                            <source src="../../client/music/liangliang.mp3" type="audio/mp3" />
+                            <embed height="0" width="0" src="../../client/music/liangliang.mp3"/>
                         </audio>
                         <div  id="header-content"></div>
                     </div>
