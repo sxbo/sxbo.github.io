@@ -63,7 +63,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 491);
+/******/ 	return __webpack_require__(__webpack_require__.s = 501);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -24397,7 +24397,8 @@ var _layout2 = _interopRequireDefault(_layout);
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _templateObject = _taggedTemplateLiteral(['\n\n    0%{\n        transform: rotateZ(0deg);\n        -ms-transform: rotateZ(0deg);\n        -webkit-transform: rotateZ(0deg);\t\n        -o-transform: rotateZ(0deg);\t\t\n        -moz-transform:rotateZ(0deg);\n    }\n    100%{\n       transform: rotateZ(360deg);\n        -ms-transform: rotateZ(360deg);\n        -webkit-transform: rotateZ(360deg);\t\n        -o-transform: rotateZ(360deg);\t\t\n        -moz-transform:rotateZ(360deg);\n    }\n'], ['\n\n    0%{\n        transform: rotateZ(0deg);\n        -ms-transform: rotateZ(0deg);\n        -webkit-transform: rotateZ(0deg);\t\n        -o-transform: rotateZ(0deg);\t\t\n        -moz-transform:rotateZ(0deg);\n    }\n    100%{\n       transform: rotateZ(360deg);\n        -ms-transform: rotateZ(360deg);\n        -webkit-transform: rotateZ(360deg);\t\n        -o-transform: rotateZ(360deg);\t\t\n        -moz-transform:rotateZ(360deg);\n    }\n']),
-    _templateObject2 = _taggedTemplateLiteral(['\n    height:100%;\n    .header{\n        display:flex;\n        height:100px;\n        background-color:#fff;\n        .header-logo{\n            margin-top:5px;\n            height: 90px;\n            width:90px;\n            border-radius: 6px;\n            transition:all .5s;\n            overflow:hidden;\n            text-align:center;\n            img{\n                border-radius:50%;\n                max-width:90px;\n                max-height:90px;\n                width:100%;\n                height:100%;\n            } \n            animation:', ' 5s infinite linear forwards;\n            -moz-animation: ', ' 5s infinite linear forwards;\n            -webkit-animation: ', ' 5s infinite linear forwards;\n            -o-animation: ', ' 5s infinite linear forwards;\n            \n        }\n        .header-right{\n            display:flex;\n            align-items:flex-end;\n            .button{\n                margin:10px 5px;\n            }\n        }\n        .header-content{\n            flex-grow:1;\n            display:flex;\n            justify-content:center;\n            .header-content-content{\n                transform:rotateX(180deg);\n                margin-bottom:5px;\n                display:flex;\n                justify-content:center;\n                width:40%;\n            }\n        }\n    }\n    .content{\n        background:#607D8B;\n    }\n\n'], ['\n    height:100%;\n    .header{\n        display:flex;\n        height:100px;\n        background-color:#fff;\n        .header-logo{\n            margin-top:5px;\n            height: 90px;\n            width:90px;\n            border-radius: 6px;\n            transition:all .5s;\n            overflow:hidden;\n            text-align:center;\n            img{\n                border-radius:50%;\n                max-width:90px;\n                max-height:90px;\n                width:100%;\n                height:100%;\n            } \n            animation:', ' 5s infinite linear forwards;\n            -moz-animation: ', ' 5s infinite linear forwards;\n            -webkit-animation: ', ' 5s infinite linear forwards;\n            -o-animation: ', ' 5s infinite linear forwards;\n            \n        }\n        .header-right{\n            display:flex;\n            align-items:flex-end;\n            .button{\n                margin:10px 5px;\n            }\n        }\n        .header-content{\n            flex-grow:1;\n            display:flex;\n            justify-content:center;\n            .header-content-content{\n                transform:rotateX(180deg);\n                margin-bottom:5px;\n                display:flex;\n                justify-content:center;\n                width:40%;\n            }\n        }\n    }\n    .content{\n        background:#607D8B;\n    }\n\n']);
+    _templateObject2 = _taggedTemplateLiteral(['\n\n    0%{\n        transform:translateZ(0px)  rotateY(0deg) rotateX(10deg);\n        -ms-transform:translateZ(0px) rotateY(0deg) rotateX(10deg);\n        -webkit-transform:translateZ(0px) rotateY(0deg) rotateX(10deg);\t\n        -o-transform:translateZ(0px) rotateY(0deg) rotateX(10deg);\t\t\n        -moz-transform:translateZ(0px) rotateY(0deg) rotateX(10deg);\n    }\n    100%{\n       transform:translateZ(', 'px) rotateY(360deg) rotateX(10deg);\n        -ms-transform:translateZ(', 'px) rotateY(360deg) rotateX(10deg);\n        -webkit-transform:translateZ(', 'px) rotateY(360deg) rotateX(10deg);\t\n        -o-transform:translateZ(', 'px) rotateY(360deg) rotateX(10deg);\t\t\n        -moz-transform:translateZ(', 'px) rotateY(360deg) rotateX(10deg);\n    }\n'], ['\n\n    0%{\n        transform:translateZ(0px)  rotateY(0deg) rotateX(10deg);\n        -ms-transform:translateZ(0px) rotateY(0deg) rotateX(10deg);\n        -webkit-transform:translateZ(0px) rotateY(0deg) rotateX(10deg);\t\n        -o-transform:translateZ(0px) rotateY(0deg) rotateX(10deg);\t\t\n        -moz-transform:translateZ(0px) rotateY(0deg) rotateX(10deg);\n    }\n    100%{\n       transform:translateZ(', 'px) rotateY(360deg) rotateX(10deg);\n        -ms-transform:translateZ(', 'px) rotateY(360deg) rotateX(10deg);\n        -webkit-transform:translateZ(', 'px) rotateY(360deg) rotateX(10deg);\t\n        -o-transform:translateZ(', 'px) rotateY(360deg) rotateX(10deg);\t\t\n        -moz-transform:translateZ(', 'px) rotateY(360deg) rotateX(10deg);\n    }\n']),
+    _templateObject3 = _taggedTemplateLiteral(['\n    height:100%;\n    .header{\n        display:flex;\n        .header-logo{\n            margin-top:5px;\n            height: 90px;\n            width:90px;\n            border-radius: 6px;\n            transition:all .5s;\n            overflow:hidden;\n            text-align:center;\n            img{\n                border-radius:50%;\n                max-width:90px;\n                max-height:90px;\n                width:100%;\n                height:100%;\n            } \n            animation:', ' 5s infinite linear forwards;\n            -moz-animation: ', ' 5s infinite linear forwards;\n            -webkit-animation: ', ' 5s infinite linear forwards;\n            -o-animation: ', ' 5s infinite linear forwards;\n            \n        }\n        .header-right{\n            display:flex;\n            align-items:flex-end;\n            .button{\n                margin:10px 5px;\n            }\n        }\n        .header-content{\n            flex-grow:1;\n            display:flex;\n            justify-content:center;\n            .header-content-content{\n                transform:rotateX(180deg);\n                margin-bottom:5px;\n                display:flex;\n                justify-content:center;\n                width:40%;\n            }\n        }\n    }\n    .content{\n        display:flex;\n        .left-verse{\n            position:absolute;\n            top:200px;\n            font-family:\u534E\u6587\u65B0\u9B4F;\n            height:500px;\n            width:66px;\n            font-size:71px;\n        }\n\n        .right-verse{\n            position:absolute;\n            top:200px;\n            right:0px;\n            font-family:\u534E\u6587\u65B0\u9B4F;\n            height:500px;\n            width:66px;\n            font-size:71px;\n\n        }\n\n\n        .pane{\n            top:300px;\n            left:46%;\n            width:200px;\n            height:220px;\n            position:absolute;\n            background-color:#fff;\n            transform-style: preserve-3d;\n            transform:translateZ(', 'px) rotateY(180deg) rotateX(10deg);\n            animation:', ' 5s infinite linear forwards;\n            -moz-animation: ', ' 5s infinite linear forwards;\n            -webkit-animation: ', ' 5s infinite linear forwards;\n            -o-animation: ', ' 5s infinite linear forwards;\n            background-image:url(../../client/img/sh.jpg);\n            background-size:100% 100%;\n        }\n        .pane img{\n            display: block;\n            position: absolute;\n            width: 162px;\n            height: 216px;\n            top:10px;\n            left:10px;\n            border: 2px solid black;\n            opacity:0.6;\n            filter:alpha(opacity=60);\n            &:hover{\n                opacity:1;\n                filter:alpha(opacity=100);\n            }\n            \n        }\n        .pane img:nth-child(1){transform:rotateY(  0deg) translateZ(', 'px);}\n        .pane img:nth-child(2){transform:rotateY(  36deg) translateZ(', 'px);}\n        .pane img:nth-child(3){transform:rotateY(  72deg) translateZ(', 'px);}\n        .pane img:nth-child(4){transform:rotateY(  108deg) translateZ(', 'px);}\n        .pane img:nth-child(5){transform:rotateY(  144deg) translateZ(', 'px);}\n        .pane img:nth-child(6){transform:rotateY(  180deg) translateZ(', 'px);}\n        .pane img:nth-child(7){transform:rotateY(  216deg) translateZ(', 'px);}\n        .pane img:nth-child(8){transform:rotateY(  252deg) translateZ(', 'px);}\n        .pane img:nth-child(9){transform:rotateY(  288deg) translateZ(', 'px);}\n        .pane img:nth-child(10){transform:rotateY(  324deg) translateZ(', 'px);}\n    }\n\n'], ['\n    height:100%;\n    .header{\n        display:flex;\n        .header-logo{\n            margin-top:5px;\n            height: 90px;\n            width:90px;\n            border-radius: 6px;\n            transition:all .5s;\n            overflow:hidden;\n            text-align:center;\n            img{\n                border-radius:50%;\n                max-width:90px;\n                max-height:90px;\n                width:100%;\n                height:100%;\n            } \n            animation:', ' 5s infinite linear forwards;\n            -moz-animation: ', ' 5s infinite linear forwards;\n            -webkit-animation: ', ' 5s infinite linear forwards;\n            -o-animation: ', ' 5s infinite linear forwards;\n            \n        }\n        .header-right{\n            display:flex;\n            align-items:flex-end;\n            .button{\n                margin:10px 5px;\n            }\n        }\n        .header-content{\n            flex-grow:1;\n            display:flex;\n            justify-content:center;\n            .header-content-content{\n                transform:rotateX(180deg);\n                margin-bottom:5px;\n                display:flex;\n                justify-content:center;\n                width:40%;\n            }\n        }\n    }\n    .content{\n        display:flex;\n        .left-verse{\n            position:absolute;\n            top:200px;\n            font-family:\u534E\u6587\u65B0\u9B4F;\n            height:500px;\n            width:66px;\n            font-size:71px;\n        }\n\n        .right-verse{\n            position:absolute;\n            top:200px;\n            right:0px;\n            font-family:\u534E\u6587\u65B0\u9B4F;\n            height:500px;\n            width:66px;\n            font-size:71px;\n\n        }\n\n\n        .pane{\n            top:300px;\n            left:46%;\n            width:200px;\n            height:220px;\n            position:absolute;\n            background-color:#fff;\n            transform-style: preserve-3d;\n            transform:translateZ(', 'px) rotateY(180deg) rotateX(10deg);\n            animation:', ' 5s infinite linear forwards;\n            -moz-animation: ', ' 5s infinite linear forwards;\n            -webkit-animation: ', ' 5s infinite linear forwards;\n            -o-animation: ', ' 5s infinite linear forwards;\n            background-image:url(../../client/img/sh.jpg);\n            background-size:100% 100%;\n        }\n        .pane img{\n            display: block;\n            position: absolute;\n            width: 162px;\n            height: 216px;\n            top:10px;\n            left:10px;\n            border: 2px solid black;\n            opacity:0.6;\n            filter:alpha(opacity=60);\n            &:hover{\n                opacity:1;\n                filter:alpha(opacity=100);\n            }\n            \n        }\n        .pane img:nth-child(1){transform:rotateY(  0deg) translateZ(', 'px);}\n        .pane img:nth-child(2){transform:rotateY(  36deg) translateZ(', 'px);}\n        .pane img:nth-child(3){transform:rotateY(  72deg) translateZ(', 'px);}\n        .pane img:nth-child(4){transform:rotateY(  108deg) translateZ(', 'px);}\n        .pane img:nth-child(5){transform:rotateY(  144deg) translateZ(', 'px);}\n        .pane img:nth-child(6){transform:rotateY(  180deg) translateZ(', 'px);}\n        .pane img:nth-child(7){transform:rotateY(  216deg) translateZ(', 'px);}\n        .pane img:nth-child(8){transform:rotateY(  252deg) translateZ(', 'px);}\n        .pane img:nth-child(9){transform:rotateY(  288deg) translateZ(', 'px);}\n        .pane img:nth-child(10){transform:rotateY(  324deg) translateZ(', 'px);}\n    }\n\n']);
 
 var _react = __webpack_require__(3);
 
@@ -24430,10 +24431,15 @@ var Header = _layout2.default.Header,
     Content = _layout2.default.Content,
     Footer = _layout2.default.Footer;
 
+//计算沿z轴平移距离，270 img宽度，10 img数量
+
+var r = Math.round(162 / 2 / Math.tan(Math.PI / 10));
 
 var logoRotate = (0, _styledComponents.keyframes)(_templateObject);
 
-var Root = (0, _styledComponents2.default)(_layout2.default)(_templateObject2, logoRotate, logoRotate, logoRotate, logoRotate);
+var pictureTrans = (0, _styledComponents.keyframes)(_templateObject2, r, r, r, r, r);
+
+var Root = (0, _styledComponents2.default)(_layout2.default)(_templateObject3, logoRotate, logoRotate, logoRotate, logoRotate, r, pictureTrans, pictureTrans, pictureTrans, pictureTrans, r, r, r, r, r, r, r, r, r, r);
 
 var Main = function (_React$Component) {
     _inherits(Main, _React$Component);
@@ -24477,44 +24483,17 @@ var Main = function (_React$Component) {
                     minHeight: document.body.clientHeight
                 });
             };
-
-            var element = document.getElementById("header-content");
-            for (var i = 0; i <= 50; i++) {
-                var fatherWidth = element.clientWidth;
-                var fatherHeight = element.clientHeight;
-                var child = document.createElement('div');
-                child.style.height = fatherHeight + 'px';
-                child.style.width = fatherWidth / 51 + 'px';
-                element.appendChild(child);
-            }
-
-            setInterval(function () {
-                _this2.change(element);
-            }, 1000);
-        }
-
-        //改变函数；
-
-    }, {
-        key: 'change',
-        value: function change(element) {
-            for (var i = 0; i < element.children.length; i++) {
-                element.childNodes[i].style.height = Math.floor(Math.random() * 80) + "px";
-                element.childNodes[i].style.backgroundColor = this.radomColor();
-            }
         }
 
         //随机生成16进制的颜色值
+        // radomColor(){
+        //     let color = Math.ceil(Math.random()*16777215).toString(16);
+        //     if(color.length<6){
+        //         color+="0";
+        //     }
+        //     return "#"+color;
+        // }
 
-    }, {
-        key: 'radomColor',
-        value: function radomColor() {
-            var color = Math.ceil(Math.random() * 16777215).toString(16);
-            if (color.length < 6) {
-                color += "0";
-            }
-            return "#" + color;
-        }
 
         //退出
 
@@ -24538,7 +24517,7 @@ var Main = function (_React$Component) {
                     _react2.default.createElement(
                         'div',
                         { className: 'header-logo' },
-                        _react2.default.createElement('img', { src: __webpack_require__(490) })
+                        _react2.default.createElement('img', { src: __webpack_require__(500) })
                     ),
                     _react2.default.createElement(
                         'div',
@@ -24550,7 +24529,7 @@ var Main = function (_React$Component) {
                             _react2.default.createElement('source', { src: '../.../client/music/aimei.ogg', type: 'audio/ogg' }),
                             _react2.default.createElement('embed', { height: '0', width: '0', src: '../../client/music/aimei.mp3' })
                         ),
-                        _react2.default.createElement('div', { className: 'header-content-content', id: 'header-content' })
+                        _react2.default.createElement('div', { id: 'header-content' })
                     ),
                     _react2.default.createElement(
                         'div',
@@ -24559,10 +24538,105 @@ var Main = function (_React$Component) {
                         _react2.default.createElement(_button2.default, { className: 'button', shape: 'circle', icon: 'logout', onClick: this.goLogin.bind(this) })
                     )
                 ),
-                _react2.default.createElement(Content, { className: 'content' }),
+                _react2.default.createElement(
+                    Content,
+                    { className: 'content' },
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'pane', style: { left: '46%', top: this.state.minHeight / 2 - 100 + 'px' } },
+                        _react2.default.createElement('img', { src: __webpack_require__(490) }),
+                        _react2.default.createElement('img', { src: __webpack_require__(491) }),
+                        _react2.default.createElement('img', { src: __webpack_require__(492) }),
+                        _react2.default.createElement('img', { src: __webpack_require__(493) }),
+                        _react2.default.createElement('img', { src: __webpack_require__(494) }),
+                        _react2.default.createElement('img', { src: __webpack_require__(495) }),
+                        _react2.default.createElement('img', { src: __webpack_require__(496) }),
+                        _react2.default.createElement('img', { src: __webpack_require__(497) }),
+                        _react2.default.createElement('img', { src: __webpack_require__(498) }),
+                        _react2.default.createElement('img', { src: __webpack_require__(499) })
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'left-verse' },
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#ff0000', height: '71px' } },
+                            '\u76F8'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#ff8900', height: '71px' } },
+                            '\u601D'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#92c000', height: '71px' } },
+                            '\u76F8'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#00c024', height: '71px' } },
+                            '\u89C1'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#00c0da', height: '71px' } },
+                            '\u77E5'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#0053ff', height: '71px' } },
+                            '\u4F55'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#4800ff', height: '71px' } },
+                            '\u65E5'
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'right-verse' },
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#ff00ff', height: '71px' } },
+                            '\u6B64'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#4900ff', height: '71px' } },
+                            '\u65F6'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#0052ff', height: '71px' } },
+                            '\u6B64'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#00c0db', height: '71px' } },
+                            '\u591C'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#00c025', height: '71px' } },
+                            '\u96BE'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#91c000', height: '71px' } },
+                            '\u4E3A'
+                        ),
+                        _react2.default.createElement(
+                            'div',
+                            { style: { color: '#ff8a00', height: '71px' } },
+                            '\u60C5'
+                        )
+                    )
+                ),
                 _react2.default.createElement(
                     Footer,
-                    { style: { textAlign: 'center', height: '10px', backgroundColor: '#B0BEC5' } },
+                    { style: { textAlign: 'center', height: '10px' } },
                     'Photo Album \xA92017 Created by Song'
                 )
             ) : _react2.default.createElement(_reactRouterDom.Redirect, { to: '/login' });
@@ -48932,10 +49006,70 @@ if(false) {
 /* 490 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "res/img/hena2.jpg";
+module.exports = __webpack_require__.p + "res/img/0.jpg";
 
 /***/ }),
 /* 491 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "res/img/1.jpg";
+
+/***/ }),
+/* 492 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "res/img/2.jpg";
+
+/***/ }),
+/* 493 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "res/img/3.jpg";
+
+/***/ }),
+/* 494 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "res/img/4.jpg";
+
+/***/ }),
+/* 495 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "res/img/5.jpg";
+
+/***/ }),
+/* 496 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "res/img/6.jpg";
+
+/***/ }),
+/* 497 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "res/img/7.jpg";
+
+/***/ }),
+/* 498 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "res/img/8.jpg";
+
+/***/ }),
+/* 499 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "res/img/9.jpg";
+
+/***/ }),
+/* 500 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "res/img/hena2.jpg";
+
+/***/ }),
+/* 501 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(193);
