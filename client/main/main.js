@@ -96,6 +96,10 @@ const Root = styled(Layout)`
     }
     .content{
         display:flex;
+
+        background-color:#eee;
+        background-image:linear-gradient(lightgray 1px,transparent 0),linear-gradient(90deg,lightgray 1px,transparent 0);
+        background-size:30px 30px;
         .left-verse{
             position:absolute;
             top:200px;
